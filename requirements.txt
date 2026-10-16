@@ -1,0 +1,14 @@
+aiogram>=3.4,<4.0
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+
+# Необязательно: AI-апскейл Real-ESRGAN (тяжёлые пакеты, Windows/GPU зависят от системы).
+# Устанавливай только если готов скачать PyTorch и файл модели:
+# torch
+# torchvision
+# basicsr
+# realesrgan
+# facexlib
+# gfpgan
